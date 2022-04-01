@@ -10,7 +10,7 @@ const FirstComponent = () => {
   return (
     <div className='first-component'>
       <div className='counter-container'>
-        <h1>App</h1>
+        <h1>First Component</h1>
         <div>
           <button title='Increase' onClick={() => setCount(count + 1)}>
             <GrFormAdd size={20} />
